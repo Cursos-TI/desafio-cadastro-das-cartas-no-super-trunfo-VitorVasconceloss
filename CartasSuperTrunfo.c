@@ -19,7 +19,7 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
 
-    
+
     // Carta 1
 
     // Variáveis carta 01
@@ -76,7 +76,7 @@ int main() {
 
    
     printf("\n");
-    printf("Carta1:\n");
+    printf("Carta 01:\n");
     printf("Estado:%c\n", estado);
     printf("Codigo da carta:%s\n", codigodacarta);
     printf("Cidade:%s\n", cidade);
@@ -142,13 +142,13 @@ int main() {
    // Impressão carta 02
 
     printf("\n");
-    printf("Carta2:\n");
+    printf("Carta 02:\n");
     printf("Estado:%c\n", estado2);
     printf("Codigo da carta:%s\n", codigodacarta2);
     printf("Cidade:%s\n", cidade2);
     printf("População:%d Milhões\n", populacao2);
     printf("Área:%.3f km²\n", area2);
-    printf("PIB do estado:%.3f Milhões de reias\n", pib2);
+    printf("PIB do estado:%.3f Bilhões de reias\n", pib2);
     printf("Pontos turístico:%d\n", turismo2);
 
 
