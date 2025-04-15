@@ -38,7 +38,7 @@ int main() {
     Inicial do estado: A
     Cidigo da carta: A01
     Cidade: Manaus
-    População: 2434640
+    População: 2434640 Milhões
     Área: 11.401 km²
     PIB: 103,2 bilhões
     Pontos turístico:15 
@@ -105,7 +105,7 @@ int main() {
     Estado:B
     Codigo:B02
     Cidade:Salvador
-    População:2418005 Milhões 
+    População:2418005 Milhões
     Área:692.818 km²
     Pib:62.954 bilhões
     Pontos turisticos:20
