@@ -32,14 +32,16 @@ int main() {
     float area;
     float pib;
     int turismo;
-    
+    float densidadepou;
+    float pibpercapita;
+
     /* 
     Ex:
     Inicial do estado: A
     Cidigo da carta: A01
     Cidade: Manaus
     População: 2434640 Milhões
-    Área: 11.401 km²
+    Área: 11401.09 km²
     PIB: 103,2 bilhões
     Pontos turístico:15 
     */
@@ -70,7 +72,10 @@ int main() {
     printf("Digite n° de pontos turisticos:");
     scanf("%d", &turismo);
 
+    // Cálculos para Carta 01
     
+    densidadepou = (float) populacao / area; // Densidade populacional (pessoas/km²)
+    pibpercapita = (pib * 100000000.0) / populacao; // A multiplicação em 1000000000.0 faz a conversão do PIB abreviado digitado pelo usuario para bilhões.
  
     // Impressão carta 01
 
@@ -84,7 +89,9 @@ int main() {
     printf("Área:%.3f km²\n", area);
     printf("PIB do estado:%.3f Bilhões de reias\n", pib);
     printf("Pontos turístico:%d\n", turismo);
-
+    printf("Densidade Populacional: %.2f habitantes por km²\n", densidadepou);
+    printf("PIB per Capita: R$ %.2f Reais\n", pibpercapita);
+    printf("\n");
 
 
     // Carta 02
@@ -99,16 +106,19 @@ int main() {
     float area2;
     float pib2;
     int turismo2;
+    float densidadepou2;
+    float pibpercapita2;
+
 
     /*
     ex:
     Estado:B
     Codigo:B02
-    Cidade:Salvador
-    População:2418005 Milhões
-    Área:692.818 km²
-    Pib:62.954 bilhões
-    Pontos turisticos:20
+    Cidade:Bahia
+    População:14850513 Milhões
+    Área:564760.42 km²
+    Pib:352.618 bilhões
+    Pontos turisticos:13
     */
 
 
@@ -137,6 +147,13 @@ int main() {
     
     printf("Digite n° de pontos turisticos:");
     scanf("%d", &turismo2);
+    
+    
+    // Cálculos para Carta 02
+
+    densidadepou2 = (float) populacao2 / area2; // Densidade populacional (pessoas/km²)
+    pibpercapita2 = (pib2 * 100000000.0) / populacao2; // A multiplicação em 1000000000.0 faz a conversão do PIB abreviado digitado pelo usuario para bilhões.
+ 
 
 
    // Impressão carta 02
@@ -150,6 +167,10 @@ int main() {
     printf("Área:%.3f km²\n", area2);
     printf("PIB do estado:%.3f Bilhões de reias\n", pib2);
     printf("Pontos turístico:%d\n", turismo2);
+    printf("Densidade Populacional: %.2f habitantes por km²\n", densidadepou2);
+    printf("PIB per Capita: R$ %.2f Reais\n", pibpercapita2);
+    printf("\n");
+
 
 
 
